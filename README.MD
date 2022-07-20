@@ -8,6 +8,8 @@
 
 The Official API for Kumiko
 
+<div align=left>
+
 # Info 
 Kumiko, a Discord bot built on top of [Rin](https://github.com/No767/Rin), is designed to allow for maximum flexibility and freedom within its services. This includes a web dashboard feature, where you can create custom embeds, view stats, and do much more tasks. This repo contains the backend source code. The backend API is written completely in Python.
 
