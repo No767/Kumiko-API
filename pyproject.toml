@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Kumiko-API"
+version = "0.1.0"
+description = "Kumiko's API - The link between the web dashboard and Kumiko"
+authors = ["No767 <73260931+No767@users.noreply.github.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+fastapi = "^0.78.0"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+SQLAlchemy = "^1.4.37"
+asyncpg = "^0.25.0"
+databases = "^0.6.0"
+psycopg2 = "^2.9.3"
+python-dateutil = "^2.8.2"
+orjson = "^3.7.8"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

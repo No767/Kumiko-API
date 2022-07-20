@@ -1,0 +1,9 @@
+API/.env
+.vscode
+__pycache__
+.env
+.vscode/
+.idea/
+.env
+test-scripts
+test-scripts.py
